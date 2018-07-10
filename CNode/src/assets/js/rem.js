@@ -1,0 +1,1 @@
+(function(a,b){resizeEvt="orientationchange" in window?"orientationchange":"resize",recalc=(function(){var d=document.documentElement.clientWidth||document.body.clientWidth,c=document.getElementsByTagName("html")[0];c.style.fontSize=d>=750?"100px":100*(d/750)+"px"})();document.addEventListener(resizeEvt,recalc,false)})(window);
